@@ -7,6 +7,12 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsService } from './projects/projects.service';
+
+const routes = [
+  {path : '', redirectTo: '/projects', pathMatch: 'full'},
+  {path : 'projects', component: ProjectsComponent}
+];
 
 @NgModule({
   declarations: [
@@ -18,9 +24,9 @@ import { ProjectsComponent } from './projects/projects.component';
     FormsModule,
     HttpModule,
     MaterialModule.forRoot(),
-    RouterModule.forRoot([])
+    RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [ProjectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
