@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Project } from './../models/project';
 import { ProjectsService } from './projects.service';
+import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 
 @Component({
   selector: 'projects',

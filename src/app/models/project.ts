@@ -4,6 +4,6 @@ export class Project {
   id: string;
   name: string;
   description: string;
-  // conversations: Conversation[];
-  // users: any[];
+  conversations: Conversation[];
+  users: any[];
 }

@@ -8,6 +8,7 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsService } from './projects/projects.service';
+import { ProjectSummaryComponent } from './projects/project-summary/project-summary.component';
 
 const routes = [
   {path : '', redirectTo: '/projects', pathMatch: 'full'},
@@ -17,7 +18,8 @@ const routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectSummaryComponent
   ],
   imports: [
     BrowserModule,

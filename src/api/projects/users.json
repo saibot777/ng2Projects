@@ -1,0 +1,76 @@
+[
+  {
+    "users": [
+      "jimmy",
+      "frenzy",
+      "april",
+      "linn"
+    ],
+    "name": "Some App",
+    "description": "Codename: The Killer App",
+    "id": "5",
+    "tasks": [
+      {
+        "name": "UI Design",
+        "id": "6",
+        "messages": [
+          {
+            "text": "How are the mockups coming?",
+            "id": "7",
+            "username": "frenzy",
+            "avatar": "https://randomuser.me/api/portraits/men/91.jpg"
+          },
+          {
+            "text": "Looking great!",
+            "id": "8",
+            "username": "april",
+            "avatar": "https://randomuser.me/api/portraits/women/91.jpg"
+          },
+          {
+            "text": "Say whaaaaat!",
+            "id": "9",
+            "username": "linn",
+            "avatar": "https://randomuser.me/api/portraits/women/93.jpg"
+          },
+          {
+            "text": "Yeah, its fine.",
+            "id": "9",
+            "username": "jimmy",
+            "avatar": "https://randomuser.me/api/portraits/men/93.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Angular Project",
+        "id": "10",
+        "messages": [
+          {
+            "text": "Where are we with are project?",
+            "id": "11",
+            "username": "frenzy",
+            "avatar": "https://randomuser.me/api/portraits/men/91.jpg"
+          },
+          {
+            "text": "We have finished implementing UI",
+            "id": "12",
+            "username": "april",
+            "avatar": "https://randomuser.me/api/portraits/women/91.jpg"
+          },
+          {
+            "text": "Restfull created!",
+            "id": "13",
+            "username": "linn",
+            "avatar": "https://randomuser.me/api/portraits/women/93.jpg"
+          },
+          {
+            "text": "Databases are sedeed!",
+            "id": "14",
+            "username": "jimmy",
+            "avatar": "https://randomuser.me/api/portraits/men/93.jpg"
+          }
+        ]
+      }
+    ]
+
+  }
+]
